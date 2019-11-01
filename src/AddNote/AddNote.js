@@ -5,11 +5,6 @@ import Config from '../config'
 import ApiContext from '../ApiContext'
 import './AddNote.css'
 
-addNote = note => {
-    this.setState({
-        notes: [...this.state.notes,note]
-    })
-}
 
 class AddNote extends React.Component {
     static contextType = ApiContext;
